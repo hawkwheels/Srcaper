@@ -2,7 +2,7 @@
 from bs4 import BeautifulSoup
 import requests 
 
-# replace testurl.com with the url you want to use.
+# replace yourtargetsite/index.html with the url you want to use.
 # requests.get downloads the webpage and stores it as a variable
 html = requests.get('http://yourtargetsite/index.html') 
 
